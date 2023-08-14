@@ -19,4 +19,15 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("Learn");
     }
+
+    public void StartChallengeMode()
+    {
+        SceneManager.LoadScene("Level1");
+    }
+
+    public void Update()
+    {
+        Cursor.visible = true; // Postavlja vidljivost miša na 'true'
+        Cursor.lockState = CursorLockMode.None; // Otkljuèava miša da se može slobodno kretati
+    }
 }
