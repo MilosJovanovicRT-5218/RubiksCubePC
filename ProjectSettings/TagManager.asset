@@ -8,6 +8,7 @@ TagManager:
   - Water
   - ZipLine
   - wall
+  - Trampoline
   layers:
   - Default
   - TransparentFX
