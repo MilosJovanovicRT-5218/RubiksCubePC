@@ -25,6 +25,11 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void StartMainScene()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
     public void Update()
     {
         Cursor.visible = true; // Postavlja vidljivost miša na 'true'
